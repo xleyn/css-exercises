@@ -33,13 +33,16 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  min-width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .sidebar ul {
   list-style: none;
-  padding-left: 16px;
+  margin: 0;
+  padding: 0;
 }
+
 .sidebar a {
   font-size: 24px;
   color: white;
@@ -50,8 +53,7 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  max-width: 300px;
-  min-height: 250px;
+  width: 300px;
   padding: 20px;
 }
 
